@@ -1,4 +1,58 @@
-# Getting Started with Create React App
+# Create a blog with react
+
+This project is based on post tutotial [Build a Blog App with React](https://javascript.plainenglish.io/build-a-blog-app-with-react-intro-and-set-up-part-1-ddf5c674d25b).
+
+## Create and run this proyect
+
+Create this project directory, you can run:
+
+### `git clone https://github.com/ricardostagle/simple-react-blog.git react-blog`
+### `cd react-blog`
+### `npm start` or `yarn start`
+
+## Or generate this project from scratch
+
+Run the following commands to create a basic react app :
+
+### `npx create-react-app react-blog`
+### `cd react-blog`
+### `npm i && npm start`
+
+
+Add the last json server module:
+
+### `npm i -g json-server@latest`
+
+Run json server in a different console:
+
+### `npx json-server --watch data/db.json --port 8000`
+
+Update node if needed:
+
+### `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
+### `nvm install v14.17.6`
+
+or 
+
+### `npm cache clean -f`
+### `npm install -g n`
+### `n stable`
+
+or 
+
+### `npm update -g`
+### `npm install please-upgrade-node`
+
+In the case of error "npm ERR! Maximum call stack size exceeded":
+
+### `rm package-lock.json`
+### `rm -rf node_modules`
+### `npm cache clean --force`
+### `npm i`
+### `npm rebuild`
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

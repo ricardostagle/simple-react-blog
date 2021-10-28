@@ -30,7 +30,6 @@ const Router = () => {
             <Route path="*">
               <NotFound/>
             </Route>
-
             <Route exact path="/blog/:title/:issueNumber" component={BlogDetails}/>
           </Switch>
         </div>
